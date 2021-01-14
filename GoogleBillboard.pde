@@ -3,7 +3,7 @@ public void setup()
 {            
     String digits;
     double dNum = 0;
-    for (int i = 2; i <= 300; i++)
+    for (int i = 2; i <= e.length(); i++)
     {
       digits = e.substring(i,i+10);
       dNum = Double.parseDouble(digits);
